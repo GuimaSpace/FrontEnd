@@ -89,8 +89,8 @@
     background: rgb(228,226,255);
     background: linear-gradient(157deg, rgba(228,226,255,1) 63%, rgba(256,256,256,1) 63%);
   }
-.col-sm{
-  margin-bottom: 20px;
+.col-md{
+  margin-bottom: 40px;
 }
 .titulo{
   font-family: 'Roboto', sans-serif;
@@ -103,6 +103,7 @@ h2{
   text-align: left;
 }
 .celulares{
+  padding-left: 10px;
   text-align: left;
 }
 .header{
@@ -118,4 +119,7 @@ h2{
 }
 .config{
    font-size: 25px;
+}
+.row{
+  text-align: center;
 }
