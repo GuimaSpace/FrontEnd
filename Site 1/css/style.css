@@ -1,7 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 /* Center the loader */
-body{
-    background-color: rgb(226, 226, 226);
-}
 #loader {
     position: absolute;
     left: 50%;
@@ -86,4 +84,38 @@ body{
   .right-padding{
       padding-right: 30px;
   }
-  
+  .bg-1{
+    padding-bottom: 550px;
+    background: rgb(228,226,255);
+    background: linear-gradient(157deg, rgba(228,226,255,1) 63%, rgba(256,256,256,1) 63%);
+  }
+.col-sm{
+  margin-bottom: 20px;
+}
+.titulo{
+  font-family: 'Roboto', sans-serif;
+  padding: 50px;
+}
+h2{
+  font-family: 'Roboto', sans-serif;
+}
+.video-games{
+  text-align: left;
+}
+.celulares{
+  text-align: left;
+}
+.header{
+  background-image: url(../imgs/header.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px;
+}
+.container{
+  border-bottom: 1px solid rgb(189, 189, 189);
+  margin-bottom: 20px;
+}
+.config{
+   font-size: 25px;
+}
